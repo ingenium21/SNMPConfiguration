@@ -1,6 +1,6 @@
 #get server names from input file;
 
-$computers = get-content .\servers.txt;
+$computers = get-content .\inputs\servers.txt;
 
 #declare Variables
 $regpath = "HKLM:\SYSTEM\CurrentControlSet\Services\SNMP\Parameters\ValidCommunities";
